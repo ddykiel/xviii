@@ -1,9 +1,13 @@
 h1 {
   font-size: 3em;
   font-family:'Verdana', 'Helvetica', 'Sans-Serif';
-  color: #00008B;
+  color: black;
 }
-
+p{
+  font-size: 1em;
+  font-family:'Verdana',
+  color: black;
+}
 html, body {
   background-color:white;
   height: 100%;
