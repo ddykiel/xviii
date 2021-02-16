@@ -1,0 +1,11 @@
+h1 {
+  font-size: 3em;
+  font-family:'Verdana', 'Helvetica', 'Sans-Serif';
+  color: #00008B;
+}
+
+html, body {
+  background-color:white;
+  height: 100%;
+  width: 100%;
+}

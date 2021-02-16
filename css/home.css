@@ -1,18 +1,28 @@
 h1 {
-  font-size: 6em;
-  font-family:'Helvetica', 'Arial', 'Sans-Serif';
-  color: #00008B;
+  font-size: 1em;
+  font-family:'Garamond';
+  color: black;
+  text-align: center;
 }
-#rectangle{
+#card{
   border-radius: 20px;
   margin: 0 auto;
   margin-top: 3%;
-  width:25%;
+  width:27%;
   height:85%;
   background: white;
+}
+#cardBody{
+  width:27%;
+  height:77%;
+}
+#cardSpace{ /*spacing for card titles*/
+  height: 3%;
+  width: 27%;
 }
 html, body {
   background-color:black;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
