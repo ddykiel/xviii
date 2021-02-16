@@ -1,12 +1,18 @@
 h1 {
-    font-size: 6em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: #00008B;
+  font-size: 6em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  color: #00008B;
 }
 #rectangle{
-    width:50%;
-    height:75%;
-    background:white;
-    margin-left: auto;
-    margin-right: auto;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 3%;
+  width:25%;
+  height:85%;
+  background: white;
+}
+html, body {
+  background-color:black;
+  height: 100%;
+  width: 100%;
 }
