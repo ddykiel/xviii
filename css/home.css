@@ -1,5 +1,12 @@
 h1 {
-    font-size: 3em;
+    font-size: 6em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    color: blue;
+    color: #00008B;
+}
+#rectangle{
+    width:50%;
+    height:75%;
+    background:white;
+    margin-left: auto;
+    margin-right: auto;
 }
