@@ -29,3 +29,48 @@ html, body {
 p{
   text-align: center;
 }
+
+.water {
+  position: relative;
+  top: 8%;
+  left: 62%;
+  width: auto;
+  height: 90%;
+  z-index: 2;
+}
+
+.moon {
+  position: absolute;
+  top: 24%;
+  left: 47.5%;
+  width: auto;
+  height: 14%;
+  z-index: 3;
+}
+
+.crawfish {
+  position: absolute;
+  top: 49%;
+  left: 47%;
+  width: auto;
+  height: 17%;
+  z-index: 3;
+}
+
+.wolf {
+  position: absolute;
+  top: 40%;
+  left: 39%;
+  width: auto;
+  height: 13%;
+  z-index: 3;
+}
+
+.dog {
+  position: absolute;
+  top: 43%;
+  left: 55%;
+  width: auto;
+  height: 11%;
+  z-index: 3;
+}
