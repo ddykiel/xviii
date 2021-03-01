@@ -1,7 +1,19 @@
 h1 {
-  font-size: 3em;
+  font-size: 2em;
   font-family:'Verdana', 'Helvetica', 'Sans-Serif';
   color: black;
+  text-align: center;
+  margin-top: 4%;
+}
+hr {
+   width: 100%;
+   height: 2px;
+   border: 0 none;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 3%;
+   margin-bottom:3%;
+   background-color:#555;
 }
 p{
   font-size: 1em;
@@ -9,7 +21,12 @@ p{
   color: black;
 }
 html, body {
-  background-color:white;
+  background-color:#fcfcfc;
   height: 100%;
-  width: 100%;
+  width: 80%;
+  margin: auto;
+}
+
+img{
+  width: 80%;
 }
