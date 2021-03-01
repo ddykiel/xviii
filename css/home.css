@@ -95,17 +95,6 @@ p{
   transform: scale(1.25);
 }
 
-.box {
-  visibility:hidden;
-  position:absolute;
-  background: yellow;
-  z-index:4;
-  left: 70%;
-  right: 10%;
-  width: 20%;
-  height: 70%;
-}
-
 .crawfish:hover .box {
   transform: scale(1.25);
 }
@@ -118,8 +107,7 @@ p{
   transform: scale(1.25);
 }
 
-.tooltip {
-
+.tooltip { /* Empty container since images have their own styling*/
 }
 
 .tooltip .tooltiptext {
@@ -133,13 +121,12 @@ p{
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
+  transition: transform .2s;
 
-  /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
