@@ -29,6 +29,10 @@ html, body {
 p{
   text-align: center;
 }
+hr {
+  width: 95%;
+  border-width: 1px;
+}
 
 .water {
   position: relative;
@@ -107,26 +111,34 @@ p{
   transform: scale(1.25);
 }
 
-.tooltip { /* Empty container since images have their own styling*/
+.tooltip { /*Empty container since images have their own styling. The container links the image to the tooltip, so hovering reveals the tooltip.*/
 }
 
-.tooltip .tooltiptext {
+.tooltip .tooltipbg {
   visibility: hidden;
   left: 67%;
   top: 10%;
   width: 20%;
   height: 70%;
   background-color: white;
-  color: black;
-  text-align: center;
   padding: 5px 0;
-  border-radius: 6px;
-  transition: transform .2s;
+  border-radius: 10px;
+  text-align: center;
 
   position: absolute;
   z-index: 1;
 }
 
+.tooltip .tooltiptext {
+  color: black;
+  visibility: hidden;
+  position: relative;
+  padding: 5px;
+}
+
+.tooltip:hover .tooltipbg {
+  visibility: visible;
+}
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
