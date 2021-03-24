@@ -120,11 +120,15 @@ hr {
   left: 67%;
   top: 10%;
   width: 20%;
-  height: 70%;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+
+  color: black;
+  visibility: hidden;
+  position: relative;
+  font-family: Lucida Sans;
 
   position: absolute;
   z-index: 1;
