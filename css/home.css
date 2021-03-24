@@ -1,8 +1,8 @@
 h1 {
   font-size: 1em;
-  font-family:'Garamond';
   color: black;
   text-align: center;
+  font-family:Lucida Sans;
 }
 #card{
   border-radius: 20px;
@@ -28,6 +28,7 @@ html, body {
 }
 p{
   text-align: center;
+  font-family: Lucida Sans;
 }
 hr {
   width: 95%;
@@ -121,7 +122,7 @@ hr {
   width: 20%;
   height: 70%;
   background-color: white;
-  padding: 5px 0;
+  padding: 20px;
   border-radius: 10px;
   text-align: center;
 
@@ -133,7 +134,7 @@ hr {
   color: black;
   visibility: hidden;
   position: relative;
-  padding: 5px;
+  font-family: Lucida Sans;
 }
 
 .tooltip:hover .tooltipbg {
