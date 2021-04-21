@@ -48,8 +48,8 @@ hr {
   position: absolute;
   top: 24%;
   left: 47.5%;
-  width: auto;
   height: 14%;
+  width: auto;
   z-index: 3;
   transition: transform .2s;
 }
@@ -58,8 +58,8 @@ hr {
   position: absolute;
   top: 49%;
   left: 47%;
-  width: auto;
   height: 17%;
+  width: auto;
   z-index: 3;
   transition: transform .2s;
 }
@@ -68,8 +68,8 @@ hr {
   position: absolute;
   top: 40%;
   left: 39%;
-  width: auto;
   height: 13%;
+  width: auto;
   z-index: 3;
   transition: transform .2s;
 }
@@ -78,8 +78,8 @@ hr {
   position: absolute;
   top: 43%;
   left: 55%;
-  width: auto;
   height: 11%;
+  width: auto;
   z-index: 3;
   transition: transform .2s;
 }
