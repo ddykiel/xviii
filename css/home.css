@@ -8,8 +8,9 @@ h1 {
   border-radius: 20px;
   margin: 0 auto;
   margin-top: 3%;
-  width:27%;
-  height:85%;
+  height: 85%;
+  aspect-ratio: 11/16;
+  /*height:85%;*/
   background: white;
 }
 #cardBody{
