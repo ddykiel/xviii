@@ -3,9 +3,32 @@
 	<head>
     <!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="css/the-missing-image.css"/>
-		<title>The Missing Image</title>
+		<title>The Missing Image?</title>
 	</head>
 	<body>
     <h1>The Missing Image</h1>
+		<p> Text </p>
+		<p id="demo"></p>
+
+		<script>
+
+
+			const crotFactory = (c, l) => {
+				return{
+					c: c,
+					l: l,
+				}
+			}
+
+			const crotA = crotFactory('Chocolate halls. Dripped ceilings. Sugar breath.',
+			'the halls drip down saliva thick burns  oil under fingernails ceilings press close get caught in your throat');
+
+			console.log(crotA);
+
+			document.getElementById("demo").innerHTML = crotA.c;
+
+			init();
+
+		</script>
 	</body>
 </html>
