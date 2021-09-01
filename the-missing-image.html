@@ -7,25 +7,33 @@
 	</head>
 	<body>
     <h1>The Missing Image</h1>
-		<p> Text </p>
+		<p> Static text </p>
 		<p id="demo"></p>
 
 		<script>
 
 
-			const crotFactory = (c, l) => {
+			const crotFactory = (c, l) => { //Create Crot with a crystal and liquid style
 				return{
 					c: c,
 					l: l,
+
+					selectRandom() { //Randomly select the liquid or crystal style
+						if (Math.random() > 0.5){
+							return c;
+						} else {
+							return l;
+						}
+					}
+
 				}
 			}
 
 			const crotA = crotFactory('Chocolate halls. Dripped ceilings. Sugar breath.',
 			'the halls drip down saliva thick burns  oil under fingernails ceilings press close get caught in your throat');
 
-			console.log(crotA);
-
 			document.getElementById("demo").innerHTML = crotA.c;
+			document.getElementById("demo").innerHTML = crotA.selectRandom();
 
 			init();
 
