@@ -17,23 +17,38 @@
 				return{
 					c: c,
 					l: l,
+					current: 'blank',
+					alternate: 'blank',
 
 					selectRandom() { //Randomly select the liquid or crystal style
 						if (Math.random() > 0.5){
-							return c;
+							current = c;
+							alternate = l;
 						} else {
-							return l;
+							current = l;
+							alternate = c;
+							}
+					return current;
 						}
-					}
+/*
+					selectAlternate() {
+						return alternate;
+					}*/
+					//I don't know why this method doesn't work
 
-				}
+					}
 			}
+
 
 			const crotA = crotFactory('Chocolate halls. Dripped ceilings. Sugar breath.',
 			'the halls drip down saliva thick burns  oil under fingernails ceilings press close get caught in your throat');
 
-			document.getElementById("demo").innerHTML = crotA.c;
-			document.getElementById("demo").innerHTML = crotA.selectRandom();
+			document.getElementById("demo").innerHTML = crotA.selectRandom(); //Should the display be in the function?
+/*
+			crot.onmouseover = function() {
+	  crot.selectRandom();
+	}*/
+
 
 			init();
 

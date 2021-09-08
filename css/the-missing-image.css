@@ -10,9 +10,13 @@ html, body {
   width: 100%;
   overflow: hidden;
 }
+
 p{
   text-align: center;
   font-family: Lucida Sans;
+}
+p:hover{
+  color: blue;
 }
 hr {
   width: 95%;
