@@ -15,24 +15,11 @@
 		<script>
 
 class Crot {
-  constructor(c, l) {
+  constructor(c, l, r) {
     this.c = c;
     this.l = l;
-		/*this.rand = Math.random();*/
-		/*double rand = Math.random();*/
-
-/*
-		selectRandom() { //Randomly select the liquid or crystal style
-						if (Math.random() > 0.5){
-							this.present = this.c;
-							this.future = this.l;
-						} else {
-							this.present = this.l;
-							this.future = this.c;
-							}
-					return this.c;*/
-				}
-
+		this.r = r;
+}
 	crystal() {
     return this.c;
   }
@@ -41,54 +28,51 @@ class Crot {
 		return this.l;
 	}
 
-	returnRandom(rand){
-		if (rand > 0.5){
-			return this.c;
-		} else {
-		return this.l;
-			}
-
+	getRandom(){
+		return this.r;
 	}
 
 }
 
-let crotA = new Crot("Crystal", "Liquid");
-/*crotA.setRandom();*/
+let crotA = new Crot("The dark hall.", "the halls saliva drip down thick burns under fingernails", Math.random());
+
+let crotB = new Crot("The tour guide with her clipped hair. She built this place. It won't hurt her. At least, not in a way you can understand.", "the girl the girl with her hair pulled back her skull doesn't crack this place won't hurt can't hurt her this place can't touch her no you can't see it touch her yes", Math.random());
+
+let crotC = new Crot("\"Welcome to my gallery,\" she says. \“Watch the steps. They're slick.\”", "the steps they slide sticky-slick-sex-burns she says to watch watch watch dried flowers blooming out from dead center", Math.random());
+
+let crotD = new Crot("The artwork gnaws. Even without you biting first. Brushstrokes like fur, hair caught in its throat.", "brushstrokes fur prickle down your throat the artwork has no manners the artwork touches you without permission", Math.random());
+
+const section1 = [crotA, crotB, crotC, crotD];
+
 document.getElementById("demo").innerHTML = "Crystal is " + crotA.crystal();
 document.getElementById("demo1").innerHTML = "Liquid is " + crotA.liquid();
-document.getElementById("demo2").innerHTML = "Random is " + crotA.returnRandom(Math.random());
-/*
-		class Crot {
-	  constructor(c, l) {
-			this.c = c;
-			this.l = l;
-			this.alternate=c;
-			this.current=l;
-		}
-		  returnCurrent() {
-				return this.c;
-			}
-		 returnAlternate() {
-			 return l;
-		 }
 
-		}
-		let myCar1 = new Car("Ford", 2014);
-			document.getElementById("demo").innerHTML = myCar1.selectCurrent();
+if (crotA.getRandom() > 0.5){
+	document.getElementById("demo2").innerHTML = "Random is " + crotA.liquid();
+} else {
+	document.getElementById("demo2").innerHTML = "Random is " + crotA.crystal();
+}
 
 /*
-			let crotA = crotFactory('Chocolate halls. Dripped ceilings. Sugar breath.',
-			'the halls drip down saliva thick burns  oil under fingernails ceilings press close get caught in your throat');
-			*/
+for (int i=0; i<section1.length; i++)
+{
+	if (section1[i].getRandom() > 0.5){
+		document.getElementById(demo).innerHTML = "Random is " + crotA.liquid();
+	} else {
+		document.getElementById(demo).innerHTML = "Random is " + crotA.crystal();
+	}
+}
 
-			/*
-			document.getElementById("demo").innerHTML = crotA.selectCurrent();
-			document.getElementById("demo2").innerHTML = crotA.selectAlternate(); //Should the display be in the function?
-			/*
-			crot.onmouseover = function() {
-	  crot.selectRandom();
-	}*/
 
+document.getElementById("demo").innerHTML = "Crystal is " + crotA.crystal();
+document.getElementById("demo1").innerHTML = "Liquid is " + crotA.liquid();
+
+/*
+if (crotA.getRandom() > 0.5){
+	document.getElementById("demo2").innerHTML = "Random is " + crotA.liquid();
+} else {
+	document.getElementById("demo2").innerHTML = "Random is " + crotA.crystal();
+}*/
 
 			init();
 
