@@ -11,10 +11,13 @@ h1 {
   height: 85%;
   aspect-ratio: 11/16;
   background: white;
+  position: relative; /*Allows for absolute positioning of elements to be relative to the card*/
 }
 #cardBody{
   width:27%;
   height:77%;
+  aspect-ratio: 11/16;
+  /*position: relative;*/
 }
 #cardSpace{ /*spacing for card titles*/
   height: 3%;
@@ -37,18 +40,18 @@ hr {
 
 .water {
   position: absolute;
-  top: 23%;
-  left: 41%;
+  top: 20%;
+  left: 15%;
   width: auto;
-  height: 65%;
+  height: 70%;
   z-index: 2;
 }
 
 .moon {
   position: absolute;
-  top: 24%;
-  left: 47.5%;
-  height: 14%;
+  top: 15%;
+  left: 35%;
+  height: 20%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
@@ -56,9 +59,9 @@ hr {
 
 .crawfish {
   position: absolute;
-  top: 49%;
-  left: 47%;
-  height: 17%;
+  top: 50%;
+  left: 35%;
+  height: 20%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
@@ -66,9 +69,9 @@ hr {
 
 .wolf {
   position: absolute;
-  top: 40%;
-  left: 39%;
-  height: 13%;
+  top: 35%;
+  left: 5%;
+  height: 20%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
@@ -76,9 +79,9 @@ hr {
 
 .dog {
   position: absolute;
-  top: 43%;
-  left: 55%;
-  height: 11%;
+  top: 35%;
+  left: 65%;
+  height: 20%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
@@ -117,9 +120,9 @@ hr {
 
 .tooltip .tooltipbg {
   visibility: hidden;
-  left: 67%;
+  left: 110%;
   top: 10%;
-  width: 20%;
+  width: 50%;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
