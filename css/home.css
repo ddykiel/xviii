@@ -1,4 +1,10 @@
 h1 {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  font-family:Lucida Sans;
+}
+h2 {
   font-size: 1em;
   color: black;
   text-align: center;
@@ -15,7 +21,7 @@ h1 {
 }
 #cardBody{ /*Section of card where the pieeces are*/
   width:27%;
-  height:77%;
+  height:81%;
   aspect-ratio: 11/16;
 }
 
@@ -41,7 +47,7 @@ hr {
 .water {
   position: absolute;
   top: 20%;
-  left: 15%;
+  left: 16%;
   width: auto;
   height: 70%;
   z-index: 2; /*z-index determined overlap--water is behind other elements*/
@@ -59,9 +65,9 @@ hr {
 
 .crawfish {
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 35%;
-  height: 20%;
+  height: 24%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
@@ -71,7 +77,7 @@ hr {
   position: absolute;
   top: 35%;
   left: 5%;
-  height: 20%;
+  height: 16%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
@@ -79,9 +85,9 @@ hr {
 
 .dog {
   position: absolute;
-  top: 35%;
-  left: 65%;
-  height: 20%;
+  top: 38%;
+  left: 66%;
+  height: 14%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
