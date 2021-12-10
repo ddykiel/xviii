@@ -2,13 +2,15 @@ h1 {
   font-size: 1.5em;
   color: black;
   text-align: center;
-  font-family:Lucida Sans;
+  font-family: Verdana, Lucida Sans, Helvetica;
+  font-weight: normal;
 }
 h2 {
   font-size: 1em;
   color: black;
   text-align: center;
-  font-family:Lucida Sans;
+  font-family: Verdana, Lucida Sans, Helvetica;
+  font-weight: normal;
 }
 #card{
   border-radius: 20px;
@@ -21,7 +23,7 @@ h2 {
 }
 #cardBody{ /*Section of card where the pieeces are*/
   width:27%;
-  height:81%;
+  height:78%;
   aspect-ratio: 11/16;
 }
 
@@ -85,7 +87,7 @@ hr {
 
 .dog {
   position: absolute;
-  top: 38%;
+  top: 39%;
   left: 66%;
   height: 14%;
   width: auto;
@@ -137,7 +139,7 @@ hr {
   color: black;
   visibility: hidden;
   position: relative;
-  font-family: Lucida Sans;
+  font-family: Lucida Sans, Verdana, Helvetica;
 
   position: absolute;
   z-index: 1;
@@ -147,7 +149,6 @@ hr {
   color: black;
   visibility: hidden;
   position: relative;
-  font-family: Lucida Sans;
 }
 
 /*makes tooltip and tooltip text visible when element is hovered over*/
