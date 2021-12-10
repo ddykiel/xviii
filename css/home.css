@@ -5,6 +5,14 @@ h1 {
   font-family: Verdana, Lucida Sans, Helvetica;
   font-weight: normal;
 }
+/* Not sure if I want the heading to have a hover state
+h1:hover {
+  font-size: 1.5em;
+  color: darkgray;
+  text-align: center;
+  font-family: Verdana, Lucida Sans, Helvetica;
+  font-weight: normal;
+}*/
 h2 {
   font-size: 1em;
   color: black;
@@ -130,7 +138,7 @@ hr {
   visibility: hidden;
   left: 110%;
   top: 10%;
-  width: 50%;
+  width: 60%;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
