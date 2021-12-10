@@ -13,12 +13,12 @@ h1 {
   background: white;
   position: relative; /*Allows for absolute positioning of elements to be relative to the card*/
 }
-#cardBody{
+#cardBody{ /*Section of card where the pieeces are*/
   width:27%;
   height:77%;
   aspect-ratio: 11/16;
-  /*position: relative;*/
 }
+
 #cardSpace{ /*spacing for card titles*/
   height: 3%;
   width: 27%;
@@ -44,7 +44,7 @@ hr {
   left: 15%;
   width: auto;
   height: 70%;
-  z-index: 2;
+  z-index: 2; /*z-index determined overlap--water is behind other elements*/
 }
 
 .moon {
@@ -54,7 +54,7 @@ hr {
   height: 20%;
   width: auto;
   z-index: 3;
-  transition: transform .2s;
+  transition: transform .2s; /*contributes to transform on hover*/
 }
 
 .crawfish {
@@ -144,6 +144,7 @@ hr {
   font-family: Lucida Sans;
 }
 
+/*makes tooltip and tooltip text visible when element is hovered over*/
 .tooltip:hover .tooltipbg {
   visibility: visible;
 }
