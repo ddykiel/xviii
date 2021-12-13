@@ -66,7 +66,7 @@ hr {
 .moon {
   position: absolute;
   top: 15%;
-  left: 35%;
+  left: 36%;
   height: 20%;
   width: auto;
   z-index: 3;
@@ -96,8 +96,8 @@ hr {
 .dog {
   position: absolute;
   top: 39%;
-  left: 66%;
-  height: 14%;
+  left: 67%;
+  height: 13%;
   width: auto;
   z-index: 3;
   transition: transform .2s;
