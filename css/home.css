@@ -20,6 +20,15 @@ h2 {
   font-family: Verdana, Lucida Sans, Helvetica;
   font-weight: normal;
 }
+h2:hover {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: Verdana, Lucida Sans, Helvetica;
+  font-weight: normal;
+}
+a:link {
+  text-decoration: none;
+}
 #card{
   border-radius: 20px;
   margin: 0 auto;
@@ -147,7 +156,7 @@ hr {
   color: black;
   visibility: hidden;
   position: relative;
-  font-family: Lucida Sans, Verdana, Helvetica;
+  font-family: Verdana, Lucida Sans Helvetica;
 
   position: absolute;
   z-index: 1;
